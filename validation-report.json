@@ -1,0 +1,100 @@
+{
+  "success": true,
+  "outcome": "passed",
+  "repairable": true,
+  "terminalViolations": [],
+  "terminalBlockingSummary": null,
+  "skillProvenance": {
+    "name": "solo-design",
+    "version": "2026.08.06.19.15.08",
+    "version_source": "skill-release-manifest.json",
+    "runtime_skill_dir": null,
+    "recorded_at": null,
+    "expected_version": "2026.08.06.19.15.08",
+    "status": "matched",
+    "read_status": "ok"
+  },
+  "operatingMode": "free-explore",
+  "renderBlockingErrorCount": 0,
+  "softWarningCount": 0,
+  "renderBlockingErrors": [],
+  "errorSignatures": [],
+  "softWarnings": [],
+  "repairPlanHints": [],
+  "repairActionTable": [],
+  "errorCount": 0,
+  "warningCount": 0,
+  "errors": [],
+  "warnings": [],
+  "validationRunDisciplineStatus": {
+    "declared": true,
+    "restoreMode": false,
+    "maxFullValidationRuns": 2,
+    "validationHistoryCount": 0,
+    "repairLedgerCount": 0,
+    "softWarningsTriggerRepair": false,
+    "terminalState": null,
+    "nextAction": null,
+    "violations": [],
+    "success": true
+  },
+  "terminalState": null,
+  "nextCheck": {
+    "type": "finish-readiness",
+    "command": "node \"c:\\Users\\33833\\.trae-cn\\builtin\\design\\default\\skills\\solo-design\\shared-runtime\\deterministic-tooling\\validate-finish-readiness.mjs\" \"C:\\Users\\33833\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a9aa2813ec453b2bedd7a9d\\bocchi-the-rock-pop-up\" --check=all",
+    "fullValidationAllowed": false,
+    "reason": "workspace validation passed; run complete finish readiness before final delivery"
+  },
+  "repairBatch": [],
+  "repairContextPacket": {
+    "schema_version": "1.0",
+    "purpose": "small-context repair packet; read this before full validation-report.json",
+    "success": true,
+    "terminalState": null,
+    "skillProvenance": {
+      "name": "solo-design",
+      "version": "2026.08.06.19.15.08",
+      "version_source": "skill-release-manifest.json",
+      "runtime_skill_dir": null,
+      "recorded_at": null,
+      "expected_version": "2026.08.06.19.15.08",
+      "status": "matched",
+      "read_status": "ok"
+    },
+    "renderBlockingErrorCount": 0,
+    "softWarningCount": 0,
+    "renderBlockingErrors": [],
+    "repairActionTable": [],
+    "nextCheck": {
+      "type": "finish-readiness",
+      "command": "node \"c:\\Users\\33833\\.trae-cn\\builtin\\design\\default\\skills\\solo-design\\shared-runtime\\deterministic-tooling\\validate-finish-readiness.mjs\" \"C:\\Users\\33833\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a9aa2813ec453b2bedd7a9d\\bocchi-the-rock-pop-up\" --check=all",
+      "fullValidationAllowed": false,
+      "reason": "workspace validation passed; run complete finish readiness before final delivery"
+    },
+    "forbidden": [
+      "do not read validator source",
+      "do not rerun full validation when nextCheck.fullValidationAllowed=false",
+      "do not start preview/browser unless user explicitly asks",
+      "do not hand-edit repair ledger fields"
+    ]
+  },
+  "projectFileHashes": {
+    "bocchi-the-rock-pop-up.design": "42a96585b1e8d443b4f823b60ad80371ae779ba22c636315e167f94ce2fdafa7",
+    "colors_and_type.css": "04b355a9961381623280f1229de9cc991e15eaf09b3d3558485e5f58f1eea655",
+    "runtime-orchestration-summary.json": "511836db7a8b86f0af99af3f65c89e69c7bd57e17f4fbcb2a5daf30a3a390627",
+    "pages/index.html": "6460cf1f7dc841a40f8182d098063abdda9c0a56e23fb8981b8d48056d277a27",
+    "assets/gift-rules.png": "51e52b80a9d09fd97f9afb4dfc0bec9f9d24bdca71c70483262b0db362231a1c",
+    "assets/goods-1.png": "03a79eb1ad5ba4f2e8f19feea21d37a67f085b026b8317cd1761ce559150b4e8",
+    "assets/goods-2.png": "5f6bd584293b31b051019aeb1a40efd6d915eae0c58ae57fc55abe49df1a6cf2",
+    "assets/goods-3.png": "7f270a94239d035eba9b87059f0c7214c39c087f3626241de6105991a58b7a19",
+    "assets/goods-4.png": "12fafbc0eb9e38e76909037f028cfe48b3db0c15ca4a3d8518e2fee1fd10d710",
+    "assets/goods-5.png": "93d24bbedbe7265f914f8619ca40b7fa20c42cbc861936df92e7b7bb5f8da134",
+    "assets/goods-6.png": "d3fec65b50d432fc77f20b829ea2b6e4e3da87bf129de2e4bfaead6440e8739c",
+    "assets/goods-7.png": "b2a03f5cc989b4eb8785d55b16af5d4cc3dc1fe6ef829466a613c125bb90c739",
+    "assets/goods-8.png": "662131e6eb16ef2926234cce31132bb65ca2e9f98632fce717aaacb74a4a930a"
+  },
+  "designDir": "C:\\Users\\33833\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a9aa2813ec453b2bedd7a9d\\bocchi-the-rock-pop-up",
+  "expectedPages": null,
+  "requireInteractions": null,
+  "checkedAt": "2026-09-04T11:10:18.473Z"
+}

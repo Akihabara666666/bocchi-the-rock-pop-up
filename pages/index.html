@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>孤独摇滚原画主题快闪</title>
+    <style id="theme-vars">
+/* BOCCHI THE ROCK! 孤独摇滚原画主题快闪 — 品牌设计系统 */
+
+:root {
+  /* 品牌主色：孤独摇滚粉 */
+  --bocchi-primary: #F06292;
+  --bocchi-primary-600: #EC407A;
+  --bocchi-primary-400: #F48FB1;
+  --bocchi-primary-300: #F8BBD0;
+  --bocchi-primary-200: #FCE4EC;
+  --bocchi-primary-100: #FDF2F6;
+  --bocchi-primary-foreground: #FFFFFF;
+
+  /* 中性色 */
+  --bocchi-background: #FFF5F7;
+  --bocchi-foreground: #1F1F1F;
+  --bocchi-card: #FFFFFF;
+  --bocchi-card-foreground: #1F1F1F;
+  --bocchi-popover: #FFFFFF;
+  --bocchi-popover-foreground: #1F1F1F;
+  --bocchi-muted: #FCE4EC;
+  --bocchi-muted-foreground: #6B7280;
+  --bocchi-border: #F8BBD0;
+  --bocchi-input: #FFFFFF;
+  --bocchi-ring: #F06292;
+
+  /* 语义状态色 */
+  --bocchi-destructive: #EF4444;
+  --bocchi-destructive-foreground: #FFFFFF;
+
+  /* 摇滚点缀色 */
+  --bocchi-ink: #1F1F1F;
+  --bocchi-ink-2: #4B5563;
+  --bocchi-ink-3: #9CA3AF;
+  --bocchi-surface: #FFFFFF;
+  --bocchi-surface-2: #FCE4EC;
+  --bocchi-line: #F8BBD0;
+
+  /* 形状系统 */
+  --bocchi-radius-small: 4px;
+  --bocchi-radius-medium: 8px;
+  --bocchi-radius-large: 16px;
+  --bocchi-radius-full: 9999px;
+
+  /* 字体系统 */
+  --bocchi-font-sans: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --bocchi-font-display: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+
+  /* 阴影 */
+  --bocchi-shadow-1: 0 1px 2px rgba(31, 31, 31, 0.04), 0 1px 1px rgba(31, 31, 31, 0.02);
+  --bocchi-shadow-2: 0 8px 24px -8px rgba(240, 98, 146, 0.05);
+  --bocchi-shadow-3: 0 24px 60px -20px rgba(240, 98, 146, 0.05);
+}
+
+/* 暗色模式占位（本项目以亮色为主） */
+.dark {
+  --bocchi-background: #1A1215;
+  --bocchi-foreground: #FAFAFA;
+  --bocchi-card: #2A1E22;
+  --bocchi-card-foreground: #FAFAFA;
+  --bocchi-muted: #3A2A30;
+  --bocchi-muted-foreground: #A1A1AA;
+  --bocchi-border: #4A343C;
+}
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.3.1/dist/index.global.js"></script>
+    <script src="https://unpkg.com/lucide@1.8.0/dist/umd/lucide.min.js"></script>
+    <style type="text/tailwindcss">
+  @theme inline {
+    --color-background: var(--bocchi-background);
+    --color-foreground: var(--bocchi-foreground);
+    --color-card: var(--bocchi-card);
+    --color-card-foreground: var(--bocchi-card-foreground);
+    --color-popover: var(--bocchi-popover);
+    --color-popover-foreground: var(--bocchi-popover-foreground);
+    --color-primary: var(--bocchi-primary);
+    --color-primary-foreground: var(--bocchi-primary-foreground);
+    --color-muted: var(--bocchi-muted);
+    --color-muted-foreground: var(--bocchi-muted-foreground);
+    --color-destructive: var(--bocchi-destructive);
+    --color-destructive-foreground: var(--bocchi-destructive-foreground);
+    --color-border: var(--bocchi-border);
+    --color-input: var(--bocchi-input);
+    --color-ring: var(--bocchi-ring);
+    --radius-sm: var(--bocchi-radius-small);
+    --radius-md: var(--bocchi-radius-medium);
+    --radius-lg: var(--bocchi-radius-large);
+  }
+  @layer base {
+    body { background: var(--bocchi-background); color: var(--bocchi-foreground); }
+    td, th { @apply break-words; word-break: break-all; word-break: auto-phrase; }
+    th { @apply whitespace-nowrap; }
+  }
+    </style>
+    <style id="semantic-token-fallback">
+      .bg-background { background-color: var(--bocchi-background); }
+      .text-background { color: var(--bocchi-background); }
+      .border-background { border-color: var(--bocchi-background); }
+      .ring-background { --tw-ring-color: var(--bocchi-background); }
+      .bg-foreground { background-color: var(--bocchi-foreground); }
+      .text-foreground { color: var(--bocchi-foreground); }
+      .border-foreground { border-color: var(--bocchi-foreground); }
+      .ring-foreground { --tw-ring-color: var(--bocchi-foreground); }
+      .bg-card { background-color: var(--bocchi-card); }
+      .text-card { color: var(--bocchi-card); }
+      .border-card { border-color: var(--bocchi-card); }
+      .ring-card { --tw-ring-color: var(--bocchi-card); }
+      .bg-card-foreground { background-color: var(--bocchi-card-foreground); }
+      .text-card-foreground { color: var(--bocchi-card-foreground); }
+      .border-card-foreground { border-color: var(--bocchi-card-foreground); }
+      .ring-card-foreground { --tw-ring-color: var(--bocchi-card-foreground); }
+      .bg-popover { background-color: var(--bocchi-popover); }
+      .text-popover { color: var(--bocchi-popover); }
+      .border-popover { border-color: var(--bocchi-popover); }
+      .ring-popover { --tw-ring-color: var(--bocchi-popover); }
+      .bg-popover-foreground { background-color: var(--bocchi-popover-foreground); }
+      .text-popover-foreground { color: var(--bocchi-popover-foreground); }
+      .border-popover-foreground { border-color: var(--bocchi-popover-foreground); }
+      .ring-popover-foreground { --tw-ring-color: var(--bocchi-popover-foreground); }
+      .bg-primary { background-color: var(--bocchi-primary); }
+      .text-primary { color: var(--bocchi-primary); }
+      .border-primary { border-color: var(--bocchi-primary); }
+      .ring-primary { --tw-ring-color: var(--bocchi-primary); }
+      .bg-primary-foreground { background-color: var(--bocchi-primary-foreground); }
+      .text-primary-foreground { color: var(--bocchi-primary-foreground); }
+      .border-primary-foreground { border-color: var(--bocchi-primary-foreground); }
+      .ring-primary-foreground { --tw-ring-color: var(--bocchi-primary-foreground); }
+      .bg-muted { background-color: var(--bocchi-muted); }
+      .text-muted { color: var(--bocchi-muted); }
+      .border-muted { border-color: var(--bocchi-muted); }
+      .ring-muted { --tw-ring-color: var(--bocchi-muted); }
+      .bg-muted-foreground { background-color: var(--bocchi-muted-foreground); }
+      .text-muted-foreground { color: var(--bocchi-muted-foreground); }
+      .border-muted-foreground { border-color: var(--bocchi-muted-foreground); }
+      .ring-muted-foreground { --tw-ring-color: var(--bocchi-muted-foreground); }
+      .bg-destructive { background-color: var(--bocchi-destructive); }
+      .text-destructive { color: var(--bocchi-destructive); }
+      .border-destructive { border-color: var(--bocchi-destructive); }
+      .ring-destructive { --tw-ring-color: var(--bocchi-destructive); }
+      .bg-destructive-foreground { background-color: var(--bocchi-destructive-foreground); }
+      .text-destructive-foreground { color: var(--bocchi-destructive-foreground); }
+      .border-destructive-foreground { border-color: var(--bocchi-destructive-foreground); }
+      .ring-destructive-foreground { --tw-ring-color: var(--bocchi-destructive-foreground); }
+      .bg-border { background-color: var(--bocchi-border); }
+      .text-border { color: var(--bocchi-border); }
+      .border-border { border-color: var(--bocchi-border); }
+      .ring-border { --tw-ring-color: var(--bocchi-border); }
+      .bg-input { background-color: var(--bocchi-input); }
+      .text-input { color: var(--bocchi-input); }
+      .border-input { border-color: var(--bocchi-input); }
+      .ring-input { --tw-ring-color: var(--bocchi-input); }
+      .bg-ring { background-color: var(--bocchi-ring); }
+      .text-ring { color: var(--bocchi-ring); }
+      .border-ring { border-color: var(--bocchi-ring); }
+      .ring-ring { --tw-ring-color: var(--bocchi-ring); }
+    </style>
+    <style>
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      [data-icon] {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-mask-size: contain;
+        mask-size: contain;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-position: center;
+        mask-position: center;
+        background-color: currentColor;
+      }
+    </style>
+</head>
+<body class="light">
+  <div class="page-wrap">
+    <header class="hero" id="hero">
+      <div class="hero-kicker"><i data-lucide="sparkles" style="width:14px;height:14px;"></i> 信息公开</div>
+      <h1 class="hero-title">BOCCHI<br>THE <span>ROCK!</span></h1>
+      <p class="hero-subtitle">孤独摇滚原画主题快闪</p>
+    </header>
+
+    <section class="section">
+      <div class="card" id="event-title"><h2 class="section-title"><span class="dot"></span>活动定档</h2><p id="copy-event-title" style="margin:0 0 12px;font-size:15px;color:var(--bocchi-ink-2);">BOCCHI THE ROCK！孤独摇滚原画主题快闪正式定档</p><div id="copy-event-date" style="font-size:28px;font-weight:900;color:var(--bocchi-primary-600);text-align:center;margin:8px 0;">2026年9月4日</div></div>
+
+      <div class="card">
+        <h2 class="section-title"><span class="dot"></span>预约信息</h2>
+        <div class="info-row" id="booking-open"><i data-lucide="calendar-clock" class="info-icon"></i>
+          <div>
+            <div class="info-label">预约开启</div><div class="info-value" id="copy-booking-open">2026年8月28日（周五）12:00</div>
+          </div>
+        </div>
+        <div class="info-row" id="booking-hours"><i data-lucide="calendar-check" class="info-icon"></i>
+          <div>
+            <div class="info-label">可预约时间</div><div class="info-value" id="copy-booking-hours">2026年9月4日（周五）- 9月6日（周日）</div>
+            <div class="info-value" style="font-weight:400;color:var(--bocchi-ink-2);">每日 10:00 - 22:00</div>
+          </div>
+        </div>
+        <div class="info-row" id="booking-flow"><i data-lucide="smartphone" class="info-icon"></i>
+          <div>
+            <div class="info-label">预约流程</div><div class="info-value" id="copy-booking-flow">微信搜索【上海静安大悦城】，点击底部菜单栏活动预约 → IP快闪预约 → 孤独摇滚原画主题快闪</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="goods-list-section"><div class="card" id="goods-list"><h2 class="section-title" id="copy-goods-list-title"><span class="dot"></span>快闪制品清单</h2>
+        <div class="goods-grid">
+          <div class="goods-item"><img src="../assets/goods-1.png" alt="快闪商品情报图1"></div>
+          <div class="goods-item"><img src="../assets/goods-2.png" alt="快闪商品情报图2"></div>
+          <div class="goods-item"><img src="../assets/goods-3.png" alt="快闪商品情报图3"></div>
+          <div class="goods-item"><img src="../assets/goods-4.png" alt="快闪商品情报图4"></div>
+          <div class="goods-item"><img src="../assets/goods-5.png" alt="快闪商品情报图5"></div>
+          <div class="goods-item"><img src="../assets/goods-6.png" alt="快闪商品情报图6"></div>
+          <div class="goods-item"><img src="../assets/goods-7.png" alt="快闪商品情报图7"></div>
+          <div class="goods-item"><img src="../assets/goods-8.png" alt="快闪商品情报图8"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card gift-card" id="gift-rules"><h2 class="section-title" id="copy-gift-rules-title"><span class="dot"></span>满赠规则</h2>
+        <img src="../assets/gift-rules.png" alt="满赠规则说明图">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card location-card" id="event-venue"><h2 class="section-title" style="justify-content:center;"><span class="dot"></span>快闪时间 & 地点</h2><div id="copy-event-duration" style="font-size:18px;font-weight:700;color:var(--bocchi-ink);margin-top:6px;">9月4日 - 9月27日</div><div class="venue" id="copy-event-venue">上海静安大悦城</div><div class="address" id="copy-event-address">南座3F次中庭</div></div>
+    </section>
+  </div>
+  <script>lucide.createIcons();</script>
+
+    <style id="critical-layout">
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--bocchi-font-sans);
+      background: var(--bocchi-background);
+      color: var(--bocchi-foreground);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    .page-wrap {
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding-bottom: 32px;
+    }
+    .hero {
+      background: linear-gradient(180deg, var(--bocchi-primary-200) 0%, var(--bocchi-background) 100%);
+      padding: 40px 20px 32px;
+      text-align: center;
+      border-bottom: 3px solid var(--bocchi-primary);
+    }
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bocchi-primary);
+      color: var(--bocchi-primary-foreground);
+      padding: 6px 14px;
+      border-radius: var(--bocchi-radius-full);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin-bottom: 16px;
+    }
+    .hero-title {
+      font-family: var(--bocchi-font-display);
+      font-size: clamp(32px, 9vw, 48px);
+      font-weight: 900;
+      line-height: 1.05;
+      color: var(--bocchi-ink);
+      margin: 0 0 12px;
+      text-wrap: balance;
+    }
+    .hero-title span {
+      color: var(--bocchi-primary-600);
+    }
+    .hero-subtitle {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--bocchi-ink-2);
+      margin: 0;
+    }
+    .section {
+      padding: 24px 16px 0;
+    }
+    .card {
+      background: var(--bocchi-card);
+      border-radius: var(--bocchi-radius-large);
+      padding: 20px;
+      border: 1px solid var(--bocchi-border);
+      box-shadow: var(--bocchi-shadow-1);
+    }
+    .card + .card {
+      margin-top: 16px;
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--bocchi-primary-600);
+      margin: 0 0 14px;
+    }
+    .section-title .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--bocchi-primary);
+    }
+    .info-row {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 10px 0;
+      border-bottom: 1px dashed var(--bocchi-line);
+    }
+    .info-row:last-child { border-bottom: none; }
+    .info-icon {
+      width: 22px;
+      height: 22px;
+      color: var(--bocchi-primary);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .info-label {
+      font-size: 13px;
+      color: var(--bocchi-ink-3);
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .info-value {
+      font-size: 15px;
+      color: var(--bocchi-ink);
+      font-weight: 600;
+    }
+    .info-value small {
+      display: block;
+      font-size: 13px;
+      color: var(--bocchi-ink-2);
+      font-weight: 400;
+      margin-top: 2px;
+    }
+    .highlight-box {
+      background: var(--bocchi-primary-100);
+      border-left: 4px solid var(--bocchi-primary);
+      border-radius: 0 var(--bocchi-radius-medium) var(--bocchi-radius-medium) 0;
+      padding: 14px 16px;
+      margin-top: 14px;
+    }
+    .highlight-box p {
+      margin: 0;
+      font-size: 14px;
+      color: var(--bocchi-ink);
+    }
+    .goods-grid {
+      display: grid;
+      gap: 12px;
+    }
+    .goods-item {
+      background: var(--bocchi-card);
+      border-radius: var(--bocchi-radius-large);
+      overflow: hidden;
+      border: 1px solid var(--bocchi-border);
+      box-shadow: var(--bocchi-shadow-1);
+    }
+    .goods-item img {
+      width: 100%;
+    }
+    .goods-caption {
+      padding: 10px 14px;
+      font-size: 13px;
+      color: var(--bocchi-ink-2);
+      text-align: center;
+      background: var(--bocchi-primary-100);
+      font-weight: 600;
+    }
+    .gift-card img {
+      width: 100%;
+      border-radius: var(--bocchi-radius-large);
+      border: 1px solid var(--bocchi-border);
+    }
+    .location-card {
+      text-align: center;
+    }
+    .location-card .venue {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--bocchi-primary-600);
+      margin: 8px 0 4px;
+    }
+    .location-card .address {
+      font-size: 15px;
+      color: var(--bocchi-ink-2);
+    }
+    .footer-note {
+      text-align: center;
+      padding: 24px 16px 8px;
+      font-size: 12px;
+      color: var(--bocchi-ink-3);
+    }
+  </style>
+</body>
+</html>

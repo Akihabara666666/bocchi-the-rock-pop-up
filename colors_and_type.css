@@ -1,0 +1,63 @@
+/* BOCCHI THE ROCK! 孤独摇滚原画主题快闪 — 品牌设计系统 */
+
+:root {
+  /* 品牌主色：孤独摇滚粉 */
+  --bocchi-primary: #F06292;
+  --bocchi-primary-600: #EC407A;
+  --bocchi-primary-400: #F48FB1;
+  --bocchi-primary-300: #F8BBD0;
+  --bocchi-primary-200: #FCE4EC;
+  --bocchi-primary-100: #FDF2F6;
+  --bocchi-primary-foreground: #FFFFFF;
+
+  /* 中性色 */
+  --bocchi-background: #FFF5F7;
+  --bocchi-foreground: #1F1F1F;
+  --bocchi-card: #FFFFFF;
+  --bocchi-card-foreground: #1F1F1F;
+  --bocchi-popover: #FFFFFF;
+  --bocchi-popover-foreground: #1F1F1F;
+  --bocchi-muted: #FCE4EC;
+  --bocchi-muted-foreground: #6B7280;
+  --bocchi-border: #F8BBD0;
+  --bocchi-input: #FFFFFF;
+  --bocchi-ring: #F06292;
+
+  /* 语义状态色 */
+  --bocchi-destructive: #EF4444;
+  --bocchi-destructive-foreground: #FFFFFF;
+
+  /* 摇滚点缀色 */
+  --bocchi-ink: #1F1F1F;
+  --bocchi-ink-2: #4B5563;
+  --bocchi-ink-3: #9CA3AF;
+  --bocchi-surface: #FFFFFF;
+  --bocchi-surface-2: #FCE4EC;
+  --bocchi-line: #F8BBD0;
+
+  /* 形状系统 */
+  --bocchi-radius-small: 4px;
+  --bocchi-radius-medium: 8px;
+  --bocchi-radius-large: 16px;
+  --bocchi-radius-full: 9999px;
+
+  /* 字体系统 */
+  --bocchi-font-sans: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --bocchi-font-display: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+
+  /* 阴影 */
+  --bocchi-shadow-1: 0 1px 2px rgba(31, 31, 31, 0.04), 0 1px 1px rgba(31, 31, 31, 0.02);
+  --bocchi-shadow-2: 0 8px 24px -8px rgba(240, 98, 146, 0.05);
+  --bocchi-shadow-3: 0 24px 60px -20px rgba(240, 98, 146, 0.05);
+}
+
+/* 暗色模式占位（本项目以亮色为主） */
+.dark {
+  --bocchi-background: #1A1215;
+  --bocchi-foreground: #FAFAFA;
+  --bocchi-card: #2A1E22;
+  --bocchi-card-foreground: #FAFAFA;
+  --bocchi-muted: #3A2A30;
+  --bocchi-muted-foreground: #A1A1AA;
+  --bocchi-border: #4A343C;
+}

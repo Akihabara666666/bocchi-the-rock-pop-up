@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "id": "page-index",
+      "createdAt": 1788519359296,
+      "version": 1,
+      "title": "孤独摇滚原画主题快闪",
+      "canvasData": {
+        "y": 0,
+        "group": 0,
+        "x": 0,
+        "layoutSnapshot": {
+          "version": 1,
+          "contentHeight": 5015,
+          "viewportWidth": 375,
+          "sourceHash": "fnv1a-339a685d",
+          "measuredAt": 1788520238632
+        }
+      },
+      "type": "page",
+      "devMetadata": {
+        "htmlSrc": "pages/index.html",
+        "interactions": []
+      }
+    },
+    {
+      "version": 1,
+      "type": "image",
+      "title": "快闪商品情报图1",
+      "createdAt": 1788519504780,
+      "canvasData": {
+        "y": 1587,
+        "x": 0,
+        "naturalSize": {
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "id": "image-001",
+      "devMetadata": {
+        "imageSrc": "assets/goods-1.png"
+      }
+    },
+    {
+      "version": 1,
+      "type": "image",
+      "title": "快闪商品情报图2",
+      "createdAt": 1788519504781,
+      "canvasData": {
+        "y": 1587,
+        "x": 169,
+        "naturalSize": {
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "id": "image-002",
+      "devMetadata": {
+        "imageSrc": "assets/goods-2.png"
+      }
+    },
+    {
+      "version": 1,
+      "type": "image",
+      "title": "快闪商品情报图3",
+      "createdAt": 1788519504782,
+      "canvasData": {
+        "y": 1587,
+        "x": 338,
+        "naturalSize": {
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "id": "image-003",
+      "devMetadata": {
+        "imageSrc": "assets/goods-3.png"
+      }
+    },
+    {
+      "version": 1,
+      "type": "image",
+      "title": "快闪商品情报图4",
+      "createdAt": 1788519504783,
+      "canvasData": {
+        "y": 1587,
+        "x": 507,
+        "naturalSize": {
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "id": "image-004",
+      "devMetadata": {
+        "imageSrc": "assets/goods-4.png"
+      }
+    },
+    {
+      "version": 1,
+      "type": "image",
+      "title": "快闪商品情报图5",
+      "createdAt": 1788519504784,
+      "canvasData": {
+        "y": 1587,
+        "x": 676,
+        "naturalSize": {
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "id": "image-005",
+      "devMetadata": {
+        "imageSrc": "assets/goods-5.png"
+      }
+    },
+    {
+      "version": 1,
+      "type": "image",
+      "title": "快闪商品情报图6",
+      "createdAt": 1788519504785,
+      "canvasData": {
+        "y": 1587,
+        "x": 845,
+        "naturalSize": {
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "id": "image-006",
+      "devMetadata": {
+        "imageSrc": "assets/goods-6.png"
+      }
+    },
+    {
+      "version": 1,
+      "type": "image",
+      "title": "快闪商品情报图7",
+      "createdAt": 1788519504786,
+      "canvasData": {
+        "y": 1587,
+        "x": 1014,
+        "naturalSize": {
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "id": "image-007",
+      "devMetadata": {
+        "imageSrc": "assets/goods-7.png"
+      }
+    },
+    {
+      "version": 1,
+      "type": "image",
+      "title": "快闪商品情报图8",
+      "createdAt": 1788519504787,
+      "canvasData": {
+        "y": 1587,
+        "x": 1183,
+        "naturalSize": {
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "id": "image-008",
+      "devMetadata": {
+        "imageSrc": "assets/goods-8.png"
+      }
+    },
+    {
+      "version": 1,
+      "type": "image",
+      "title": "满赠规则说明图",
+      "createdAt": 1788519504788,
+      "canvasData": {
+        "y": 1587,
+        "x": 1352,
+        "naturalSize": {
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "id": "image-009",
+      "devMetadata": {
+        "imageSrc": "assets/gift-rules.png"
+      }
+    }
+  ],
+  "config": {
+    "autoLayout": true,
+    "deviceType": "mobile",
+    "projectName": "孤独摇滚原画主题快闪"
+  }
+}

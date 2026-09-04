@@ -1,0 +1,541 @@
+{
+  "skillProvenance": {
+    "version_source": "skill-release-manifest.json",
+    "read_status": "ok",
+    "name": "solo-design",
+    "version": "2026.08.06.19.15.08",
+    "release": "prompt-base-cloud-ssot-migration"
+  },
+  "assets": [
+    {
+      "filename": "goods-1.png",
+      "status": "reused",
+      "page": "page-index",
+      "role": "supporting-content",
+      "description": "快闪商品情报图1"
+    },
+    {
+      "filename": "goods-2.png",
+      "status": "reused",
+      "page": "page-index",
+      "role": "supporting-content",
+      "description": "快闪商品情报图2"
+    },
+    {
+      "filename": "goods-3.png",
+      "status": "reused",
+      "page": "page-index",
+      "role": "supporting-content",
+      "description": "快闪商品情报图3"
+    },
+    {
+      "filename": "goods-4.png",
+      "status": "reused",
+      "page": "page-index",
+      "role": "supporting-content",
+      "description": "快闪商品情报图4"
+    },
+    {
+      "filename": "goods-5.png",
+      "status": "reused",
+      "page": "page-index",
+      "role": "supporting-content",
+      "description": "快闪商品情报图5"
+    },
+    {
+      "filename": "goods-6.png",
+      "status": "reused",
+      "page": "page-index",
+      "role": "supporting-content",
+      "description": "快闪商品情报图6"
+    },
+    {
+      "filename": "goods-7.png",
+      "status": "reused",
+      "page": "page-index",
+      "role": "supporting-content",
+      "description": "快闪商品情报图7"
+    },
+    {
+      "filename": "goods-8.png",
+      "status": "reused",
+      "page": "page-index",
+      "role": "supporting-content",
+      "description": "快闪商品情报图8"
+    },
+    {
+      "filename": "gift-rules.png",
+      "status": "reused",
+      "page": "page-index",
+      "role": "supporting-content",
+      "description": "满赠规则说明图"
+    }
+  ],
+  "designSource": {
+    "cssFilePath": "colors_and_type.css",
+    "brandPrefix": "bocchi",
+    "operatingMode": "free-explore",
+    "styleConstraints": {
+      "singleBrandHue": true,
+      "staticShadowAlphaMax": 0.05,
+      "radiusMax": 16
+    }
+  },
+  "schemaVersion": "2026.08.06",
+  "pages": [
+    {
+      "compositionPattern": "vertical-card-stack",
+      "viewportMode": "document-scroll",
+      "continuityAnchors": [
+        "brand-pink-primary",
+        "rounded-card-surfaces",
+        "vertical-rhythm-16-24-32"
+      ],
+      "chartsRequired": false,
+      "visualNorthStar": "粉色少女摇滚感微信公众号长图文，标题醒目、信息分层、商品图清晰可阅",
+      "imagePlan": [
+        {
+          "section": "goods",
+          "filename": "goods-1.png",
+          "status": "reused",
+          "role": "supporting-content"
+        },
+        {
+          "section": "goods",
+          "filename": "goods-2.png",
+          "status": "reused",
+          "role": "supporting-content"
+        },
+        {
+          "section": "goods",
+          "filename": "goods-3.png",
+          "status": "reused",
+          "role": "supporting-content"
+        },
+        {
+          "section": "goods",
+          "filename": "goods-4.png",
+          "status": "reused",
+          "role": "supporting-content"
+        },
+        {
+          "section": "goods",
+          "filename": "goods-5.png",
+          "status": "reused",
+          "role": "supporting-content"
+        },
+        {
+          "section": "goods",
+          "filename": "goods-6.png",
+          "status": "reused",
+          "role": "supporting-content"
+        },
+        {
+          "section": "goods",
+          "filename": "goods-7.png",
+          "status": "reused",
+          "role": "supporting-content"
+        },
+        {
+          "section": "goods",
+          "filename": "goods-8.png",
+          "status": "reused",
+          "role": "supporting-content"
+        },
+        {
+          "section": "gift",
+          "filename": "gift-rules.png",
+          "status": "reused",
+          "role": "supporting-content"
+        }
+      ],
+      "pageIndex": 1,
+      "pageType": "information-dense",
+      "deviceType": "mobile",
+      "miniProgramStyle": false,
+      "title": "孤独摇滚原画主题快闪",
+      "nodeId": "page-index",
+      "qualityRisks": [
+        "image-density",
+        "CJK-heading-fit"
+      ],
+      "htmlSrc": "pages/index.html"
+    }
+  ],
+  "project": {
+    "graphicStrategyGate": "layout-static",
+    "intentProfile": {
+      "replicationMode": "none",
+      "graphicStrategy": "layout-static",
+      "caseFamily": "graphic_design",
+      "sourceType": "image"
+    },
+    "operation": "create",
+    "validationRunDiscipline": {
+      "maxFullValidationRuns": 2,
+      "forbiddenRepairTriggers": [
+        "soft-warning-only",
+        "provenance-warning-only",
+        "style-warning-only"
+      ],
+      "softWarningsTriggerRepair": false,
+      "blockingRepairMode": "targeted-once"
+    },
+    "contextRequirementsLoaded": [
+      {
+        "readStatus": "loaded",
+        "path": "shared-runtime/runtime-boundaries/lane-runtime-contracts.md",
+        "bodyRead": true
+      },
+      {
+        "readStatus": "loaded",
+        "path": "shared-runtime/agent-dispatch-runtime/lane-dispatch-index.md",
+        "bodyRead": true
+      },
+      {
+        "readStatus": "loaded",
+        "path": "shared-runtime/agent-dispatch-runtime/shared-page-rendering-kernel.md",
+        "bodyRead": true
+      },
+      {
+        "readStatus": "loaded",
+        "path": "delivery-quality/page-rendering-quality-gate.md",
+        "bodyRead": true
+      },
+      {
+        "readStatus": "loaded",
+        "path": "delivery-quality/design-artifact-validation.md",
+        "bodyRead": true
+      },
+      {
+        "readStatus": "loaded",
+        "path": "delivery-quality/delivery-evidence-contract.md",
+        "bodyRead": true
+      },
+      {
+        "readStatus": "loaded",
+        "path": "visual-experience/visual-experience-guidelines.md",
+        "bodyRead": true
+      },
+      {
+        "readStatus": "loaded",
+        "path": "visual-experience/visual-checkpoint-protocol.md",
+        "bodyRead": true
+      }
+    ],
+    "generationTree": {
+      "root": {
+        "pageIds": [
+          "page-index"
+        ],
+        "kind": "project-shell",
+        "sharedRegions": [
+          "brand-css",
+          "head-infrastructure"
+        ],
+        "nodeId": "gen-project-shell",
+        "mutableSlots": [],
+        "privateRegions": [
+          "page-body"
+        ],
+        "output": null,
+        "children": [
+          {
+            "pageIds": [
+              "page-index"
+            ],
+            "kind": "page-leaf",
+            "sharedRegions": [],
+            "nodeId": "gen-page-index",
+            "mutableSlots": [],
+            "privateRegions": [
+              "hero",
+              "info-sections",
+              "goods-gallery",
+              "gift-section",
+              "footer"
+            ],
+            "output": "pages/index.html",
+            "children": [],
+            "status": "planned"
+          }
+        ],
+        "status": "generated"
+      }
+    },
+    "mobileNavigation": {
+      "applies": false
+    },
+    "textCriticality": "high",
+    "contextReadScope": "complex-build-layout-static",
+    "validationRepairLedger": [],
+    "deviceType": "mobile",
+    "layoutStaticRequired": true,
+    "dispatchPreflightManifest": [
+      {
+        "forbiddenWriteRoots": [
+          "*.design",
+          "runtime-orchestration-summary.json",
+          "validation-report.json",
+          "finish-readiness-report.json"
+        ],
+        "allowedWritePaths": [
+          "pages/index.html"
+        ],
+        "supplementaryReads": [],
+        "laneContract": {
+          "packetType": "GraphicLayoutPagePacket",
+          "pageRuntimeGuide": "intent-workflows/intent-project-complex-build/graphic-layout-page-runtime.md",
+          "resolvedLane": "graphic_layout_static",
+          "dispatchContract": "intent-workflows/intent-project-complex-build/graphic-layout-dispatch-contract.md"
+        },
+        "sharedTemplate": null,
+        "toolPolicy": {
+          "helperScriptsAllowed": false,
+          "designFileWriteAllowed": false,
+          "previewAllowed": false,
+          "todoWriteAllowed": false,
+          "allowedWritePaths": [
+            "pages/index.html",
+            "assets/"
+          ],
+          "validationScriptsAllowed": false
+        },
+        "nodeId": "page-index",
+        "htmlSrc": "pages/index.html"
+      }
+    ],
+    "selectedIntentWorkflowRead": true,
+    "sharedProjectShellContract": {
+      "primaryColor": "#F06292",
+      "surfaceDepthModel": "border-and-surface-led",
+      "radiusScale": {
+        "lg": "16px",
+        "sm": "4px",
+        "full": "9999px",
+        "md": "8px"
+      },
+      "typographySystem": {
+        "titleStack": "var(--bocchi-font-display)",
+        "bodyStack": "var(--bocchi-font-sans)"
+      },
+      "staticShadowAlphaMax": 0.05
+    },
+    "designDials": {
+      "visualDensity": 3,
+      "motionIntensity": 2,
+      "layoutVariance": 2
+    },
+    "projectName": "孤独摇滚原画主题快闪",
+    "visualQualityCheckpoints": [
+      {
+        "dimension": "visual-anchor",
+        "expected": "顶部粉色系主视觉标题区 + BOCCHI THE ROCK! 品牌标识",
+        "checkpointId": "vq-anchor",
+        "evidenceTarget": "pages/index.html#hero"
+      },
+      {
+        "dimension": "information-hierarchy",
+        "expected": "标题 > 时间地点 > 预约信息 > 制品清单 > 满赠规则",
+        "checkpointId": "vq-hierarchy",
+        "evidenceTarget": "pages/index.html#content"
+      },
+      {
+        "dimension": "composition-structure",
+        "expected": "单栏卡片堆叠，微信公众号长图文阅读流，16px安全边距",
+        "checkpointId": "vq-structure",
+        "evidenceTarget": "pages/index.html#layout"
+      },
+      {
+        "dimension": "implementation-strategy",
+        "expected": "复用用户提供的9张官方图作为商品与满赠内容主视觉，HTML文本补充关键预约/时间/地点信息",
+        "checkpointId": "vq-implementation",
+        "evidenceTarget": "pages/index.html#implementation"
+      }
+    ],
+    "deliverableCompletenessChecklist": {
+      "blocking": false,
+      "requiredCopyBlocks": [
+        {
+          "label": "活动标题",
+          "text": "BOCCHI THE ROCK！孤独摇滚原画主题快闪正式定档",
+          "htmlSrc": "pages/index.html",
+          "selector": "#copy-event-title",
+          "role": "primary"
+        },
+        {
+          "label": "预约开启",
+          "text": "2026年8月28日（周五）12:00",
+          "htmlSrc": "pages/index.html",
+          "selector": "#copy-booking-open",
+          "role": "supporting"
+        },
+        {
+          "label": "可预约时间",
+          "text": "2026年9月4日（周五）- 9月6日（周日）",
+          "htmlSrc": "pages/index.html",
+          "selector": "#copy-booking-hours",
+          "role": "supporting"
+        },
+        {
+          "label": "预约流程",
+          "text": "微信搜索【上海静安大悦城】，点击底部菜单栏活动预约 → IP快闪预约 → 孤独摇滚原画主题快闪",
+          "htmlSrc": "pages/index.html",
+          "selector": "#copy-booking-flow",
+          "role": "supporting"
+        },
+        {
+          "label": "快闪时间",
+          "text": "9月4日 - 9月27日",
+          "htmlSrc": "pages/index.html",
+          "selector": "#copy-event-duration",
+          "role": "supporting"
+        },
+        {
+          "label": "快闪地点",
+          "text": "南座3F次中庭",
+          "htmlSrc": "pages/index.html",
+          "selector": "#copy-event-address",
+          "role": "supporting"
+        },
+        {
+          "label": "制品清单引导",
+          "text": "快闪制品清单",
+          "htmlSrc": "pages/index.html",
+          "selector": "#copy-goods-list-title",
+          "role": "supporting"
+        },
+        {
+          "label": "满赠规则引导",
+          "text": "满赠规则",
+          "htmlSrc": "pages/index.html",
+          "selector": "#copy-gift-rules-title",
+          "role": "supporting"
+        }
+      ],
+      "requiredPages": [
+        "pages/index.html"
+      ],
+      "requiredAssets": [
+        "assets/goods-1.png",
+        "assets/goods-2.png",
+        "assets/goods-3.png",
+        "assets/goods-4.png",
+        "assets/goods-5.png",
+        "assets/goods-6.png",
+        "assets/goods-7.png",
+        "assets/goods-8.png",
+        "assets/gift-rules.png"
+      ],
+      "actualPageCount": 1,
+      "expectedPageCount": 1,
+      "missingRequiredItems": [],
+      "sourceMaterialCoverage": "complete",
+      "requiredPagesOrAssets": [
+        "pages/index.html",
+        "assets/goods-1.png",
+        "assets/goods-2.png",
+        "assets/goods-3.png",
+        "assets/goods-4.png",
+        "assets/goods-5.png",
+        "assets/goods-6.png",
+        "assets/goods-7.png",
+        "assets/goods-8.png",
+        "assets/gift-rules.png"
+      ],
+      "requiredInfoTypes": [
+        "event-title",
+        "booking-open-time",
+        "booking-hours",
+        "booking-flow",
+        "event-duration",
+        "event-venue",
+        "goods-list",
+        "gift-rules"
+      ]
+    },
+    "cssPreflightEvidence": {
+      "success": true,
+      "exitCode": 0,
+      "command": "node c:\\Users\\33833\\.trae-cn\\builtin\\design\\default\\skills\\solo-design\\shared-runtime\\deterministic-tooling\\apply-html-head-contract.mjs C:\\Users\\33833\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a9aa2813ec453b2bedd7a9d\\bocchi-the-rock-pop-up\\colors_and_type.css C:\\Users\\33833\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a9aa2813ec453b2bedd7a9d\\bocchi-the-rock-pop-up\\.preflight\\preflight.html --title=Preflight --lang=zh-CN --prefix=bocchi",
+      "timestamp": 1788519405935
+    },
+    "lowValueCallWatchdog": {
+      "noProgressNextAction": "proceed-to-readiness"
+    },
+    "designRead": "动漫IP快闪 / 二次元爱好者 / 少女摇滚活力 / 中密度信息长图文 / 避免过度装饰",
+    "resolvedLane": "graphic_layout_static",
+    "expectedDispatches": [
+      {
+        "changedFiles": [
+          "pages/index.html"
+        ],
+        "toolCallLedger": {
+          "todoWriteCalls": 0,
+          "previewCalls": 0,
+          "validationScriptCalls": 0,
+          "helperScriptWrites": 0,
+          "source": "main-agent-runtime-trace",
+          "traceDigest": "main-agent-wrote-pages-index-html"
+        },
+        "nodeId": "page-index",
+        "packetType": "GraphicLayoutPagePacket",
+        "status": "completed"
+      }
+    ],
+    "copyDensity": "medium",
+    "validationHistory": [],
+    "copyBlockEvidence": [
+      {
+        "label": "活动标题",
+        "htmlSrc": "pages/index.html",
+        "selector": "#copy-event-title",
+        "verified": true
+      },
+      {
+        "label": "预约开启",
+        "htmlSrc": "pages/index.html",
+        "selector": "#copy-booking-open",
+        "verified": true
+      },
+      {
+        "label": "可预约时间",
+        "htmlSrc": "pages/index.html",
+        "selector": "#copy-booking-hours",
+        "verified": true
+      },
+      {
+        "label": "预约流程",
+        "htmlSrc": "pages/index.html",
+        "selector": "#copy-booking-flow",
+        "verified": true
+      },
+      {
+        "label": "快闪时间",
+        "htmlSrc": "pages/index.html",
+        "selector": "#copy-event-duration",
+        "verified": true
+      },
+      {
+        "label": "快闪地点",
+        "htmlSrc": "pages/index.html",
+        "selector": "#copy-event-address",
+        "verified": true
+      },
+      {
+        "label": "制品清单引导",
+        "htmlSrc": "pages/index.html",
+        "selector": "#copy-goods-list-title",
+        "verified": true
+      },
+      {
+        "label": "满赠规则引导",
+        "htmlSrc": "pages/index.html",
+        "selector": "#copy-gift-rules-title",
+        "verified": true
+      }
+    ]
+  },
+  "wiringPlan": [],
+  "hiddenInteractionPlan": []
+}
